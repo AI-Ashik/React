@@ -25,7 +25,7 @@ const useFetchCustomHook = (url) => {
             });
     }, [url]);
 
-    return { data, isLoading, error };
+    return { data, error, isLoading };
 };
 
 export default useFetchCustomHook;
