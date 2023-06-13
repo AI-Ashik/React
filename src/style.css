@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(76, 102, 37);
+    color: #fff;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: limegreen;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 50px;
+    color: #fff;
+    margin-right: 10px;
+
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover {
+    box-shadow: 3px black;
+    transform: scale(1.1);
+}
