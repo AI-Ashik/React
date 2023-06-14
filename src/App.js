@@ -1,10 +1,10 @@
 import React from 'react';
-import DataFetch from './Components/useEffect/DataFetch';
+import ReactTostify from './Components/ReactTostify/ReactTostify';
 
 const App = () => {
     return (
         <div>
-            <DataFetch />
+            <ReactTostify />
         </div>
     );
 };
