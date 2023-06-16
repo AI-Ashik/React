@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+import './style.css';
+
 const DataFetch = () => {
     const [data, setData] = useState(null);
     const [dataLoading, setDataLoading] = useState(true);
@@ -7,7 +9,7 @@ const DataFetch = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch('https://jsonplceholder.typicode.com/todos')
+            fetch('https://jsonplaceholder.typicode.com/todos')
                 .then((res) => {
                     if (!res.ok) {
                         throw Error('Fetching unseccessful');
@@ -37,11 +39,11 @@ const DataFetch = () => {
         });
 
     return (
-        <div>
-            <h2 style={{ textAlign: 'center', color: 'red', fontWeight: 'bolder' }}>Todo Data</h2>
-            <p>{dataLoading && loadingDataMessage}</p>
-            <p>{error && errorMessage}</p>
-            <p>{datas}</p>
+        <div className="container">
+            <h2 className="title">Todo Data</h2>
+            <p className="loading-message">{dataLoading && loadingDataMessage}</p>
+            <p className="error-message">{error && errorMessage}</p>
+            <div className="todo-items">{datas}</div>
         </div>
     );
 };
