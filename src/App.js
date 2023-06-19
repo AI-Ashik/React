@@ -1,10 +1,10 @@
 import React from 'react';
-import DataFetch from './Components/Assignment-4/DataFetch';
+import DynamicStyling from './Components/Dynamic Styling/DynamicStyling';
 
 const App = () => {
     return (
         <div>
-            <DataFetch />
+            <DynamicStyling />
         </div>
     );
 };
