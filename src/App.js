@@ -1,10 +1,10 @@
 import React from 'react';
-import DynamicStyling from './Components/Dynamic Styling/DynamicStyling';
+import LifeCycle from './Components/Life Cycle/LifeCycle';
 
 const App = () => {
     return (
         <div>
-            <DynamicStyling />
+            <LifeCycle />
         </div>
     );
 };
