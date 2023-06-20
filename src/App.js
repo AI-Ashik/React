@@ -1,10 +1,10 @@
 import React from 'react';
-import LifeCycle from './Components/Life Cycle/LifeCycle';
+import UserForm from './Components/Ref/UserForm';
 
 const App = () => {
     return (
         <div>
-            <LifeCycle />
+            <UserForm />
         </div>
     );
 };
