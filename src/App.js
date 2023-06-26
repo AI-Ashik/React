@@ -1,10 +1,10 @@
 import React from 'react';
-import UserForm from './Components/Ref/UserForm';
+import UseReducer from './Components/UseReducer/UseReducer';
 
 const App = () => {
     return (
         <div>
-            <UserForm />
+            <UseReducer />
         </div>
     );
 };
