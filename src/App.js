@@ -1,10 +1,11 @@
 import React from 'react';
-import UseReducer from './Components/UseReducer/UseReducer';
+import Counter from './Components/useReducer Practice/Counter';
 
 const App = () => {
+
     return (
         <div>
-            <UseReducer />
+            <Counter />
         </div>
     );
 };
